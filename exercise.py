@@ -79,3 +79,31 @@
 #         print(f"{rating} é múltiplo de 3")
 
 # restul = [print(f"{rating} é múltiplo de 3") for rating in ratings if (rating % 3) == 0]
+
+
+# def soma(x, y):
+#     return x * y
+
+
+# print(soma(2, 2))
+
+# print(soma(x=3, y=3))
+
+
+# def concat_like_tuple(*args):
+#     final_string = ""
+#     for index, name in enumerate(args, 1):
+#         final_string += f"O nome da pessoa {index} é {name}. \n"
+#     return final_string
+
+
+# def concat_like_dict(**kwargs):
+#     final_string = (
+#         f'{kwargs["nome"]} {kwargs["sobrenome"]} tem {kwargs["idade"]} anos. \n'
+#     )
+#     return final_string
+
+
+# print(concat_like_tuple("Cris", "Wallace", "Carol"))
+
+# print(concat_like_dict(nome="Felipe", sobrenome="Silva", idade=25))
